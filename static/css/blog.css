@@ -1,0 +1,319 @@
+
+
+
+.navbar-brand   {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 80px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.nav-item {
+    margin: 15px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+}
+#contact{
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid rgb(19, 20, 20);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+a#contact:hover {
+    background-color:gray;
+      color: white;
+      opacity: 1;
+}
+
+
+.pagenumber{
+    margin-top: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.blog-pagination{
+    padding-bottom:45px;
+    border-bottom:2px solid #e9e9e9;
+    overflow:hidden;
+    width:100%;
+    margin:100px auto 45px;
+    text-align:center;
+}
+
+.blog-pagination .page-numbers{
+    background-color:#74c86e;
+    border-bottom:2px solid #51ba49;
+    border-radius:3px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:700;
+    color:#fff;
+    transition:opacity .2s;
+    padding:7px 15px;
+    display:inline-block;
+    margin:0 5px 0 5px;
+    font-size:1em;
+}
+
+.blog-pagination .page-numbers:hover{opacity:.8;color:#fff}
+
+.blog-pagination .page-numbers.current{background-color:#dadada;border-color:#c1c0c0}
+
+.blog-pagination .next{
+    margin-left: 60px;
+}
+
+
+.post-navigation{
+    width:100%;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+
+.blog-pagination .page-numbers.current{
+        background-color:#999999;
+        border-color:#c1c0c0}
+
+.post-navigation .screen-reader-text{display:none}
+
+.footer {
+  
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #073553;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: ;
+    }
+
+
+    .portfolio-resume{
+        margin-top: 200px;
+        justify-content: center;
+    }
+    
+    .portfolio-resume-name{
+        padding-bottom: 5px;
+        font-weight: bold;
+        margin-bottom: 40px;
+      
+    }
+
+    .portfolio-resume-spacing {
+        margin-bottom: 2rem;
+      }
+      
+      .portfolio-resume-wrapper {
+        padding: 2rem 4rem;
+        max-width: 575.98px;
+      }
+      
+      .portfolio-resume-headshot {
+        margin-bottom: 2rem;
+        border-radius: 50%;
+      }
+      
+      .portfolio-resume-header {
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #e6e6e6;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+     
+        .portfolio-resume-contact-info {
+            margin-bottom: 0.75rem;
+        }
+        
+        .portfolio-resume-contact-info a {
+            color: blue;
+            font-size: 1.2rem;
+        }
+        
+        .portfolio-resume-contact-info i {
+            font-size: 2rem;
+            font-weight: bold;
+            padding-right: 0.8rem;
+            vertical-align: middle;
+            color: #0a0a0a;
+        }
+        /*------------------------------------------------------
+Blog*/
+
+@media (min-width: 1200px){
+  .container{
+      max-width: 1050px;
+  }
+}
+
+.blogpost h2{
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 45px;
+
+}
+.post_detail{
+  justify-content: center;
+  min-height: 100%;
+  position: static;
+  top: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    margin-bottom: 60px;
+    min-height: 100%;
+    padding: 20px 30px 30px 30px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.post_detail .img-detail{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 1px solid rgb(19, 20, 20);
+}
+
+.blog-area{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post_detail .col-md-8{
+  margin : 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+
+.post_detail h1{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 60px;
+}
+
+@media (min-width: 768px){
+.col-md-8 {
+  position: relative;
+  right:95px;
+}
+}
+
+
+.post_detail hr{
+  margin-top: 25px;
+}
+
+
+.post_detail p{
+  text-align: right;
+}
+
+/*------------------------------------------------------
+Projects*/
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 230px;
+    background-color:rgba(184, 184, 184, 0.795);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+
+  .card-img-top{
+    text-anchor: middle;}
+
+  .card-img-top text{
+      font-size: 30px;
+  }
+/*
+.blog-pagination .prev{float:left}
+.blog-pagination .prev:before{content:"\1F826\"}
+.blog-pagination .next:before,.blog-pagination .prev:before{
+    font-family:fontawesome}
+.blog-pagination .prev{float:left}
+.post-navigation .nav-links{float:right}
+.post-navigation .nav-previous,.post-navigation .nav-next{float:left}
+*/
+
+   /*
+
+
+
+
+
+
+.nav-link .nav-item {
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+
+
+.
+
+#contact {
+    border: 1px solid rgb(240, 15, 15);
+    padding-left: 40px;
+    padding-right: 40px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+#contact  a:hover {
+background-color: white;
+      color: greenyellow;
+      opacity: 1;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+
+  }
+
+.blog-text {
+    background-color: whitesmoke;
+}
+*/

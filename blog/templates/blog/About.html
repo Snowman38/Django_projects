@@ -1,0 +1,138 @@
+{% load static %}
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+    <title> Yuji's Blog </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+
+</head>
+
+<body style="background-color:rgb(230, 228, 228)">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:white">
+        <div class=" container">
+            <a class="navbar-brand" href="/">Yuji's Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="/project">Project</a>
+                    <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" id="contact" href="/contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+    <div class="video-container">
+        <video src={% static 'css/background.mp4' %} autoplay playsinline muted loop></video>
+    </div>
+-->
+
+
+    <div class="portfolio-resume row">
+
+        <div class="large-4 columns">
+            <div class="portfolio-resume-wrapper">
+                <img class="portfolio-resume-headshot" src="https://placehold.it/175" alt="headshot">
+                <h2 class="portfolio-resume-name">Yuji Fukuta</h2>
+                <h3 class="portfolio-resume-header">Skills</h3>
+                <ul>
+                    <li>Japanese</li>
+                    <li>Basketball</li>
+                    <li>Poker</li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>java, python</li>
+                    <li>HTML, CSS, Django</li>
+                    <li>Git, Eclipse, Visual Studio</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="large-4 columns">
+            <div class="portfolio-resume-wrapper">
+                <h3 class="portfolio-resume-header">Experience</h3>
+                <div class="portfolio-resume-spacing">
+                    <h5><strong>Work Experience</strong></h5>
+                    <p>I spent two weeks in Aston Martin, Warwick leaning about Engineering.
+                    </p>
+                    <ul>
+                        <li>Efficiency of reducing air-resistance </li>
+                        <li>Car-Modeling</li>
+                        <li>3D design of the Machine</li>
+                    </ul>
+                    <hr>
+                    <p> Part-time job at hotel restaurant. 2019-summer, 2020-summer</p>
+                    <ul>
+                        <li>Hall-stuff</li>
+                        <li>Kitchen</li>
+                        <li>Room cleaner</li>
+                    </ul>
+                    <p>These have developed my team working ability, organisation and communication,
+                        which I hope to apply to a more professional environment in the future.</p>
+                </div>
+
+                <div class="portfolio-resume-spacing">
+                    <h5><strong>A-level</strong></h5>
+                    <ul>
+                        <li>Math</li>
+                        <li>Further Math</li>
+                        <li>Physics</li>
+                        <li>Japanese</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="large-4 columns">
+            <div class="portfolio-resume-wrapper">
+                <h3 class="portfolio-resume-header">Background</h3>
+                <p>Born in Japan. Stayed in Thailand for two years, one year in China for kindergarden. Moved back to
+                    Japan and studied in japanese School until 15.
+                    Afterward moved to France and enter British School of Paris. Studied there for three years taking
+                    GCSE and
+                    A-level. Curretry, Studying Bsc Computer Science in University of Birmingham. (2019~)</p>
+                <!-- <div class="portfolio-resume-contact-info">
+                    <i>&#9993;</i><a href="mailto:fukutay38@gmail.com">fukutay38@gmail.com</a>
+                </div>
+                -->
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <footer class=" footer">
+        Copyright © Yuji Fukuta All rights reserved.
+    </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>

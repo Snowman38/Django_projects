@@ -1,0 +1,92 @@
+{% load static %}
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+    <title> Yuji's Blog </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+
+</head>
+
+<body style="background-color:rgb(230, 228, 228)">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:white">
+        <div class=" container">
+            <a class="navbar-brand" href="/">Yuji's Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="/project">Project</a>
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    <a class="nav-item nav-link active" id="contact" href="/contact">Contact<span
+                            class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+    <div class="video-container">
+        <video src={% static 'css/background.mp4' %} autoplay playsinline muted loop></video>
+    </div>
+-->
+
+    <div class="wrap-contact100">
+        <span class="contact100-form-symbol">
+            <img src="../../../static/media/symbol-01.png" alt="SYMBOL-MAIL">
+        </span>
+        <form class="contact100-form validate-form flex-sb flex-w" action="mail.php" method="post">
+            <span class="contact100-form-title">
+                Drop A Message
+            </span>
+            <div class="wrap-input100 rs1 validate-input" data-validate="Name is required">
+                <input class="input100" type="text" name="name" placeholder="Name" maxlength="30">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1 validate-input" data-validate="Email is required: e@a.z">
+                <input class="input100" type="text" name="email" placeholder="Email Address" maxlength="40">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Message is required">
+                <textarea class="input100" name="message" placeholder="Write Us A Message (up to 1000 characters)"
+                    maxlength="1000"></textarea>
+                <span class="focus-input100"></span>
+            </div>
+            <input type="hidden" id="token" name="token" value="1234567" />
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+                    Send
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <footer class=" footer">
+        Copyright © Yuji Fukuta All rights reserved.
+    </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
